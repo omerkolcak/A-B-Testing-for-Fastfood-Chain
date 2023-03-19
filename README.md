@@ -1,7 +1,8 @@
 # A/B Testing for Fastfood Chain
 ## Overview
-<img src="images/burgers.jpg" width=800, height=400>
-
+<div align="center">
+  <img src="images/burgers.jpg" width=600, height=400>
+</div>
 A fast food chain wants to add a new prouct to their menu, but they are not sure which marketing campaign to go with. Therefore, they offered 3 different marketing 
 campaign at different locations and stores which are selected randomly. Sales are recorded for 4 weeks. Our goal is to evaluate the A/B test and find out the best 
 promotion for the fast food company. 
@@ -39,6 +40,6 @@ Since there are 3 promotions 3 pairwise hypothesis are tested. This may led to o
 
 ## Conclusion
 
-As a result of data analyses and conducted tests, there is a statistical signficance that Promotion 1 and Promotion 3 are superior campaigns compared to Promotion 2. However, there is no statistical significance between the Promotion 1 and Promotion 3. As a result company have two choices to make:
-- They can use either Promotion 1 or Promotion 3.
+As a result of data analyses and conducted tests, there is a statistical signficance that Promotion 1 and Promotion 3 are superior campaigns compared to Promotion 2. However, there is no statistical significance between the Promotion 1 and Promotion 3. As a result, company have two choices to make:
+- They can use either Promotion 1 or Promotion 3, or
 - They can tweak Promotion 1 or Promotion 3 and conduct more tests between the two.
