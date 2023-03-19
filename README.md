@@ -22,21 +22,21 @@ Lastly, we can investigate the kernel density estimations of each promotion to s
 
 ## Hypothesis Testing
 
-Before applying the hyphotesis test, it should be decided that if the data is normally distrubuted or not. QQ plots and Shapiro test indicates data is not normally distributed. Therefore, we should use non-parametic test such as Mann-Whitney U test which the non-parametic type of t-test. 
+Before applying the hyphotesis test, it should be decided that if the data is normally distrubuted or not. QQ plots and Shapiro test indicates data is not normally distributed. Therefore, we should use non-parametic test such as Mann-Whitney U test which is the non-parametic type of t-test. 
 
 Since there are 3 promotions 3 pairwise hypothesis are tested. This may led to overfitting because with the more conducted test, there are higher chance of being fooled by a random chance. For example, if one conducts 3 test, there is 1 - 0.95<sup>3</sup> = 0.143 chance that you may end up with Type 1 Error(false positive). This problem can be mitigated by dividing the alpha value(0.05) with the number of conducted tests. In this case alpha value equals to 0.0167(0.05 / 3). 
 
 * Hypothesis 1
-  - Null Hypothesis: Promotion 1 and Promotion 2 is not different.
-  - Alternative Hypothesis: Promotion 1 and Promotion 2 is different.
+  - <b>Null Hypothesis:</b> Promotion 1 and Promotion 2 is not different.
+  - <b>Alternative Hypothesis:</b> Promotion 1 and Promotion 2 is different.
   - Null hypothesis is rejected in the favor of alternative hypothesis.
 * Hypothesis 2
-  - Null Hypothesis: Promotion 3 and Promotion 2 is not different.
-  - Alternative Hypothesis: Promotion 3 and Promotion 2 is different.
+  - <b>Null Hypothesis:</b> Promotion 3 and Promotion 2 is not different.
+  - <b>Alternative Hypothesis:</b> Promotion 3 and Promotion 2 is different.
   - Null hypothesis is rejected in the favor of alternative hypothesis.
 * Hypothesis 3
-  - Null Hypothesis: Promotion 1 and Promotion 3 is not different.
-  - Alternative Hypothesis: Promotion 1 and Promotion 3 is different.
+  - <b>Null Hypothesis:</b> Promotion 1 and Promotion 3 is not different.
+  - <b>Alternative Hypothesis:</b> Promotion 1 and Promotion 3 is different.
   - Null hypothesis could not be rejected.
 
 ## Conclusion
