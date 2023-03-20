@@ -5,7 +5,7 @@
 </div>
 A fast food chain wants to add a new prouct to their menu, but they are not sure which marketing campaign to go with. Therefore, they offered 3 different marketing 
 campaign at different locations and stores which are selected randomly. Sales are recorded for 4 weeks. Our goal is to evaluate the A/B test and find out the best 
-promotion for the fast food company. You can access the dataset from this [link](https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test).
+promotion for the fast food company. You can access the dataset from this [link](https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test) .
 
 ## Data Analysis
 Before applying the hypothesis test, it is good to analyze the data to get more insight. The below graph on the left shows that the Promotion 1 and Promotion 3 has done better job in the sales. We can not say a lot about the Promotion 1 and Promotion 3. However, these are not enough, we have to prove that the results are statistically significant or occured by a random chance. The below graph on the right shows that stores that have larger market size sales more compared to other stores. 
