@@ -5,7 +5,7 @@
 </div>
 A fast food chain wants to add a new prouct to their menu, but they are not sure which marketing campaign to go with. Therefore, they offered 3 different marketing 
 campaign at different locations and stores which are selected randomly. Sales are recorded for 4 weeks. Our goal is to evaluate the A/B test and find out the best 
-promotion for the fast food company.
+promotion for the fast food company. </br>
 
 Dataset: https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test
 
